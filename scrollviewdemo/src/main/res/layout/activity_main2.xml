@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.qianfeng.scrollviewdemo.Main2Activity">
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/bt"
+        android:text="这是一个"
+        android:onClick="onClick2"
+        android:layout_height="wrap_content" />
+<ScrollView
+    android:layout_width="match_parent"
+    android:id="@+id/scrollView"
+    android:layout_below="@id/bt"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/lin"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/tv"
+            android:textSize="50sp"
+            android:text="这是 textview"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="wrap_content"
+            android:text="这不是两个"
+            android:id="@+id/noter"
+            android:onClick="onClick2"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</ScrollView>
+</RelativeLayout>

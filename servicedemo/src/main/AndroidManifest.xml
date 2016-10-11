@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.qianfeng.servicedemo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".MyService" />
+        <service
+            android:name=".MyServiceStart"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".MyServiceDemo"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".MyServiceBinder2"
+            android:enabled="true"
+            android:exported="true" />
+        <service android:name=".MyIntentService">
+            <intent-filter>
+                <action android:name="yinshiyitu" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

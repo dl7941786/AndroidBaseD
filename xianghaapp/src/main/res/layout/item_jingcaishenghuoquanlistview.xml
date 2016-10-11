@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="30dp"
+        android:id="@+id/userpic"
+        android:layout_height="30dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/username"
+        android:textSize="15sp"
+        android:layout_toRightOf="@id/userpic"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="22sp"
+        android:id="@+id/title"
+        android:layout_below="@id/userpic"
+        android:maxLines="2"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_width="124dp"
+        android:layout_below="@id/title"
+        android:id="@+id/second"
+        android:scaleType="fitXY"
+        android:layout_alignParentRight="true"
+        android:layout_height="124dp" />
+    <ImageView
+        android:layout_width="124dp"
+        android:id="@+id/third"
+        android:layout_below="@id/second"
+        android:layout_marginTop="2dp"
+        android:scaleType="fitXY"
+        android:layout_alignParentRight="true"
+        android:layout_height="124dp" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:id="@+id/first"
+        android:scaleType="fitXY"
+        android:layout_alignTop="@id/second"
+        android:layout_toLeftOf="@id/second"
+        android:layout_height="250dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:id="@+id/desc"
+        android:layout_below="@id/first"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/timeandcategory"
+        android:textSize="15sp"
+        android:layout_below="@id/desc"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

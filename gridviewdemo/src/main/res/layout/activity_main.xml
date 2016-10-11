@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.qianfeng.gridviewdemo.MainActivity">
+    <!--numColumns 指定显示多少列auto_fit 自动填充   columnWidth列宽  当指定具体列数的时候,columnWidth列宽默认无效
+    stretchMode 拉伸的方式,就是将剩余的空间进行分配
+    默认是columnWidth  将剩余空间平均分配到每一列的宽度上
+     spacingWidth 将剩余空间平均分配到每两列之间的空间上
+     spacingWidthUniform 左右以空白开始,将剩余空间分配到两列之间的空间
+    none 不分配剩余空间,剩余多少就显示在最右边
+    -->
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnWidth="50dp"
+        android:numColumns="3"
+        android:stretchMode="none" />
+</RelativeLayout>

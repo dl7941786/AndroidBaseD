@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.qianfeng.buttondemo.MainActivity">
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt1"
+        android:layout_marginTop="10dp"
+        android:text="这是一个 textview"
+        android:textSize="25sp" />
+    <!--<Button-->
+    <!--android:textAllCaps="false"-->
+    <!--android:id="@+id/bt1"-->
+    <!--android:onClick="dianJi"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Hello World!" />-->
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:id="@+id/tv2"-->
+    <!--android:onClick="dianJi"-->
+    <!--android:text="这是一个 textview"-->
+    <!--android:clickable="true"-->
+    <!--android:layout_below="@id/bt1"-->
+    <!--android:textSize="25sp"-->
+    <!--android:layout_marginTop="10dp"-->
+    <!--android:layout_height="wrap_content" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tv2"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/lin1"
+            layout="@layout/buttonlist" />
+
+        <include
+            android:id="@+id/lin2"
+            layout="@layout/buttonlist" />
+
+        <include
+            android:id="@+id/lin3"
+            layout="@layout/buttonlist" />
+
+        <include
+            android:id="@+id/lin4"
+            layout="@layout/buttonlist" />
+
+    </LinearLayout>
+</RelativeLayout>

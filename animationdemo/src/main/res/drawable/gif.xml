@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+<!--帧动画的图片列表,只需要把所有的图片放进来即可,会按照顺序进行播放-->
+    <item
+        android:drawable="@drawable/girl_1"
+        android:duration="150" />
+    <item
+        android:drawable="@drawable/girl_2"
+        android:duration="250" />
+    <item
+        android:drawable="@drawable/girl_3"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/girl_4"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/girl_5"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/girl_6"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/girl_7"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/girl_8"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/girl_9"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/girl_10"
+        android:duration="50" />
+    <item
+        android:drawable="@drawable/girl_11"
+        android:duration="50" />
+</animation-list>

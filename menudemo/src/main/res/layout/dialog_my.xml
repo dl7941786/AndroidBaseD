@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f00"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我是弗兰人"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/message"
+        android:src="@mipmap/ic_launcher" />
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/bt1"
+        android:text="点我,点我"
+        android:layout_below="@id/iv"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/bt2"
+        android:layout_toRightOf="@id/bt1"
+        android:layout_marginLeft="10dp"
+        android:text="点车神,点车神"
+        android:layout_below="@id/iv"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Day02Demo.iml" filepath="$PROJECT_DIR$/Day02Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/activitydemo/activitydemo.iml" filepath="$PROJECT_DIR$/activitydemo/activitydemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/activitypassdatademo/activitypassdatademo.iml" filepath="$PROJECT_DIR$/activitypassdatademo/activitypassdatademo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aidlclient/aidlclient.iml" filepath="$PROJECT_DIR$/aidlclient/aidlclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aidldemo/aidldemo.iml" filepath="$PROJECT_DIR$/aidldemo/aidldemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/animationdemo/animationdemo.iml" filepath="$PROJECT_DIR$/animationdemo/animationdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/animatordemo/animatordemo.iml" filepath="$PROJECT_DIR$/animatordemo/animatordemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/appbardemo/appbardemo.iml" filepath="$PROJECT_DIR$/appbardemo/appbardemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asynctaskdemo/asynctaskdemo.iml" filepath="$PROJECT_DIR$/asynctaskdemo/asynctaskdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/autocompletetextviewdemo/autocompletetextviewdemo.iml" filepath="$PROJECT_DIR$/autocompletetextviewdemo/autocompletetextviewdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bluetoothdemo/bluetoothdemo.iml" filepath="$PROJECT_DIR$/bluetoothdemo/bluetoothdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/braodcastreciver/braodcastreciver.iml" filepath="$PROJECT_DIR$/braodcastreciver/braodcastreciver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/broadcastdemo2/broadcastdemo2.iml" filepath="$PROJECT_DIR$/broadcastdemo2/broadcastdemo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/broadcastdemo3/broadcastdemo3.iml" filepath="$PROJECT_DIR$/broadcastdemo3/broadcastdemo3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/buttondemo/buttondemo.iml" filepath="$PROJECT_DIR$/buttondemo/buttondemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/callbackdemo/callbackdemo.iml" filepath="$PROJECT_DIR$/callbackdemo/callbackdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/checkboxdemo/checkboxdemo.iml" filepath="$PROJECT_DIR$/checkboxdemo/checkboxdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contentproviderdemo/contentproviderdemo.iml" filepath="$PROJECT_DIR$/contentproviderdemo/contentproviderdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customanimation/customanimation.iml" filepath="$PROJECT_DIR$/customanimation/customanimation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day07homework/day07homework.iml" filepath="$PROJECT_DIR$/day07homework/day07homework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dialogdemo/dialogdemo.iml" filepath="$PROJECT_DIR$/dialogdemo/dialogdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edittextdemo/edittextdemo.iml" filepath="$PROJECT_DIR$/edittextdemo/edittextdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/filestore(wenjiancunchu)demo/filestore(wenjiancunchu)demo.iml" filepath="$PROJECT_DIR$/filestore(wenjiancunchu)demo/filestore(wenjiancunchu)demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fragmentdemo/fragmentdemo.iml" filepath="$PROJECT_DIR$/fragmentdemo/fragmentdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fragmentembeddemo/fragmentembeddemo.iml" filepath="$PROJECT_DIR$/fragmentembeddemo/fragmentembeddemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gridviewdemo/gridviewdemo.iml" filepath="$PROJECT_DIR$/gridviewdemo/gridviewdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/handlerdemo/handlerdemo.iml" filepath="$PROJECT_DIR$/handlerdemo/handlerdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imageviewdemo/imageviewdemo.iml" filepath="$PROJECT_DIR$/imageviewdemo/imageviewdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intentdemo/intentdemo.iml" filepath="$PROJECT_DIR$/intentdemo/intentdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/launchmodedemo/launchmodedemo.iml" filepath="$PROJECT_DIR$/launchmodedemo/launchmodedemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listviewdemo/listviewdemo.iml" filepath="$PROJECT_DIR$/listviewdemo/listviewdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listviewdemo2/listviewdemo2.iml" filepath="$PROJECT_DIR$/listviewdemo2/listviewdemo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listviewdemo3/listviewdemo3.iml" filepath="$PROJECT_DIR$/listviewdemo3/listviewdemo3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listviewpartrefresh/listviewpartrefresh.iml" filepath="$PROJECT_DIR$/listviewpartrefresh/listviewpartrefresh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listviewwithbuttoncheckbox/listviewwithbuttoncheckbox.iml" filepath="$PROJECT_DIR$/listviewwithbuttoncheckbox/listviewwithbuttoncheckbox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listviewwithmutillayout/listviewwithmutillayout.iml" filepath="$PROJECT_DIR$/listviewwithmutillayout/listviewwithmutillayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loaderdemo/loaderdemo.iml" filepath="$PROJECT_DIR$/loaderdemo/loaderdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lrucachedemo/lrucachedemo.iml" filepath="$PROJECT_DIR$/lrucachedemo/lrucachedemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/menudemo/menudemo.iml" filepath="$PROJECT_DIR$/menudemo/menudemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/messengerclient/messengerclient.iml" filepath="$PROJECT_DIR$/messengerclient/messengerclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/messengerserver/messengerserver.iml" filepath="$PROJECT_DIR$/messengerserver/messengerserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/musicplayerdemo/musicplayerdemo.iml" filepath="$PROJECT_DIR$/musicplayerdemo/musicplayerdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvphelloworld/mvphelloworld.iml" filepath="$PROJECT_DIR$/mvphelloworld/mvphelloworld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mycontentprovidertest/mycontentprovidertest.iml" filepath="$PROJECT_DIR$/mycontentprovidertest/mycontentprovidertest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mydriversdemo/mydriversdemo.iml" filepath="$PROJECT_DIR$/mydriversdemo/mydriversdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/notificationdemo/notificationdemo.iml" filepath="$PROJECT_DIR$/notificationdemo/notificationdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/permissiondemo(quanxian)/permissiondemo(quanxian).iml" filepath="$PROJECT_DIR$/permissiondemo(quanxian)/permissiondemo(quanxian).iml" />
+      <module fileurl="file://$PROJECT_DIR$/progressbardemo/progressbardemo.iml" filepath="$PROJECT_DIR$/progressbardemo/progressbardemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/radiobuttondemo/radiobuttondemo.iml" filepath="$PROJECT_DIR$/radiobuttondemo/radiobuttondemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rattingbardemo/rattingbardemo.iml" filepath="$PROJECT_DIR$/rattingbardemo/rattingbardemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scrollviewdemo/scrollviewdemo.iml" filepath="$PROJECT_DIR$/scrollviewdemo/scrollviewdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scrollviewwithlistview/scrollviewwithlistview.iml" filepath="$PROJECT_DIR$/scrollviewwithlistview/scrollviewwithlistview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servicedemo/servicedemo.iml" filepath="$PROJECT_DIR$/servicedemo/servicedemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sharedpreferencesdemo/sharedpreferencesdemo.iml" filepath="$PROJECT_DIR$/sharedpreferencesdemo/sharedpreferencesdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spinnerdemo/spinnerdemo.iml" filepath="$PROJECT_DIR$/spinnerdemo/spinnerdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sqlitedemo/sqlitedemo.iml" filepath="$PROJECT_DIR$/sqlitedemo/sqlitedemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/staractivity3demo/staractivity3demo.iml" filepath="$PROJECT_DIR$/staractivity3demo/staractivity3demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/startactivity3demo1/startactivity3demo1.iml" filepath="$PROJECT_DIR$/startactivity3demo1/startactivity3demo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/startactivitydemo2/startactivitydemo2.iml" filepath="$PROJECT_DIR$/startactivitydemo2/startactivitydemo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/startactivityforrsultdemo/startactivityforrsultdemo.iml" filepath="$PROJECT_DIR$/startactivityforrsultdemo/startactivityforrsultdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/toastdemo/toastdemo.iml" filepath="$PROJECT_DIR$/toastdemo/toastdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uidemo/uidemo.iml" filepath="$PROJECT_DIR$/uidemo/uidemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewpagerdemo/viewpagerdemo.iml" filepath="$PROJECT_DIR$/viewpagerdemo/viewpagerdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewpagerwithfragmentdemo/viewpagerwithfragmentdemo.iml" filepath="$PROJECT_DIR$/viewpagerwithfragmentdemo/viewpagerwithfragmentdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webviewsource/webviewsource.iml" filepath="$PROJECT_DIR$/webviewsource/webviewsource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xianghaapp/xianghaapp.iml" filepath="$PROJECT_DIR$/xianghaapp/xianghaapp.iml" />
+    </modules>
+  </component>
+</project>

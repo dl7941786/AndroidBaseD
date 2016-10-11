@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/change"
+        android:icon="@mipmap/ic_launcher"
+        android:menuCategory="alternative"
+        android:orderInCategory="3"
+        android:title="切换显示方式"
+        app:showAsAction="never|withText" />
+    <!--showAsAction 是否显示在 actionbar  withText显示文字  ifRoom如果空间足够,就显示在 actionbar ,never是用不显示, always是永远显示, 显示会影响 actionbar 的样子-->
+    <!--orderInCategory 显示的顺序, 数字越小,优先级越大
+    menuCategory 菜单的分类,系统会根据分类来排序 alternative 默认的  ,system声明这个菜单选项是一个系统选项, 会排列在最后面 ,container 声明是一个容器包含类型,secondary 副标题
+enabled 不能被使用,小伙,充个卡吧,这个选项只有 vip 才可以用
+visible 是否显示,比如判断是否符合某些条件,符合后显示,不符合不显示
+titleCondensed 简写标题
+    -->
+    <item
+        android:id="@+id/qqq"
+        android:enabled="false"
+        android:icon="@mipmap/ic_launcher"
+        android:menuCategory="secondary"
+        android:orderInCategory="1"
+        android:title="太长了"
+        android:titleCondensed="a"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/www"
+        android:icon="@mipmap/ic_launcher"
+        android:menuCategory="alternative"
+        android:orderInCategory="2"
+        android:title="www"
+        app:showAsAction="never|withText" />
+
+
+    <group
+        android:id="@+id/group"
+        android:menuCategory="secondary"
+        android:checkableBehavior="all">
+
+        <item
+            android:id="@+id/male"
+            android:checked="true"
+            android:icon="@mipmap/ic_launcher"
+            android:title="男" />
+
+        <item
+            android:id="@+id/female"
+            android:checked="true"
+            android:icon="@mipmap/ic_launcher"
+            android:title="女" />
+
+
+    </group>
+
+    <item
+        android:id="@+id/zicaidan"
+        android:menuCategory="secondary"
+        android:icon="@mipmap/ic_launcher"
+        android:title="子菜单">
+
+        <menu>
+            <item
+                android:id="@+id/zicaidan1"
+                android:icon="@mipmap/ic_launcher"
+                android:title="子菜单1" />
+            <item
+                android:id="@+id/zicaidan2"
+                android:icon="@mipmap/ic_launcher"
+                android:title="子菜单2" />
+        </menu>
+    </item>
+
+
+    <!--<item-->
+    <!--android:id="@+id/afa"-->
+    <!--android:title="切换显示方式"-->
+    <!--android:icon="@mipmap/ic_launcher"-->
+    <!--app:showAsAction="always" />-->
+    <!--<item-->
+    <!--android:id="@+id/rrerwe"-->
+    <!--android:title="切换显示方式"-->
+    <!--android:icon="@mipmap/ic_launcher"-->
+    <!--app:showAsAction="always" />-->
+    <!--<item-->
+    <!--android:id="@+id/fsdfsd"-->
+    <!--android:title="切换显示方式"-->
+    <!--android:icon="@mipmap/ic_launcher"-->
+    <!--app:showAsAction="always" />-->
+</menu>

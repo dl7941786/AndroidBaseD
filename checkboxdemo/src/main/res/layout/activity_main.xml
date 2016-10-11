@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.qianfeng.checkboxdemo.MainActivity">
+
+    <CheckBox
+        android:id="@+id/chouyan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="抽烟"
+        android:checked="true"
+        android:textSize="30sp" />
+
+    <CheckBox
+        android:id="@+id/hejiu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="喝酒"
+        android:textSize="30sp" />
+
+    <CheckBox
+        android:id="@+id/tangtou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="烫头"
+        android:textSize="30sp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/commit"
+        android:text="提交"
+        android:onClick="onClick"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/result"
+        android:layout_height="wrap_content" />
+</LinearLayout>

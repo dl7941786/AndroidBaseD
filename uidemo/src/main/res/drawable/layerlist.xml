@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@mipmap/liuyifei"
+        />
+    <item
+        android:bottom="50dp"
+        android:drawable="@mipmap/ic_launcher"
+        android:left="150dp"
+        />
+    <item
+        android:bottom="50dp"
+        android:drawable="@mipmap/libingbing"
+        android:left="150dp"
+        android:top="80dp"
+        />
+</layer-list>

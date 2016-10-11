@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.qianfeng.servicedemo.MainActivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/et"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:onClick="onClick"
+        android:layout_below="@+id/et"
+        android:layout_height="wrap_content"
+        android:text="binder"
+        android:id="@+id/binder"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:onClick="onClick"
+        android:layout_height="wrap_content"
+        android:text="start"
+        android:layout_below="@+id/et"
+        android:layout_toRightOf="@id/binder"
+        android:id="@+id/start"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/startdemo"
+        android:text="启动的例子"
+        android:onClick="onClick"
+        android:layout_below="@+id/et"
+        android:layout_toRightOf="@id/start"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/binder2"
+        android:text="绑定方式2"
+        android:onClick="onClick"
+        android:layout_below="@+id/et"
+        android:layout_toRightOf="@id/startdemo"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/intentservice"
+        android:text="intentservice"
+        android:onClick="onClick"
+        android:layout_below="@+id/binder"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

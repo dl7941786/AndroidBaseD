@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--默认值最大10000  clipOrientation切割方向   gravity 从什么位置开始切   drawable切什么图-->
+<clip xmlns:android="http://schemas.android.com/apk/res/android"
+    android:clipOrientation="horizontal"
+    android:drawable="@mipmap/ic_launcher"
+    android:gravity="right"></clip>

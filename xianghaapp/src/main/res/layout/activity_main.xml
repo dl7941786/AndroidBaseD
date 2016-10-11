@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.MainActivity">
+<RadioGroup
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/rg"
+    android:layout_alignParentBottom="true"
+    android:layout_height="50dp">
+
+    <RadioButton
+        android:layout_width="0px"
+        android:layout_weight="1"
+        android:button="@null"
+        android:gravity="center"
+        android:id="@+id/xuezuocai"
+        android:checked="true"
+        android:text="学做菜"
+        android:background="@drawable/radiobuttonselector"
+        android:layout_height="match_parent" />
+
+    <RadioButton
+        android:layout_width="0px"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:id="@+id/market"
+        android:button="@null"
+        android:background="@drawable/radiobuttonselector"
+        android:text="商城"
+        android:layout_height="match_parent" />
+
+    <RadioButton
+        android:layout_width="0px"
+        android:layout_weight="1"
+        android:button="@null"
+        android:id="@+id/bbs"
+        android:text="社区"
+        android:background="@drawable/radiobuttonselector"
+        android:gravity="center"
+        android:layout_height="match_parent" />
+
+    <RadioButton
+        android:layout_width="0px"
+        android:layout_weight="1"
+        android:button="@null"
+        android:gravity="center"
+        android:id="@+id/message"
+        android:background="@drawable/radiobuttonselector"
+        android:text="消息"
+        android:layout_height="match_parent" />
+    <RadioButton
+        android:layout_width="0px"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:id="@+id/mine"
+        android:text="我的"
+        android:background="@drawable/radiobuttonselector"
+        android:button="@null"
+        android:layout_height="match_parent" />
+</RadioGroup>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:id="@+id/container"
+        android:layout_above="@id/rg"
+        android:layout_height="match_parent"/>
+</RelativeLayout>

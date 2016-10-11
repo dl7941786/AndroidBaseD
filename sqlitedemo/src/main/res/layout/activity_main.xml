@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.qianfeng.sqlitedemo.MainActivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/et"
+        android:textSize="20sp"
+        android:inputType="number"
+        android:layout_height="wrap_content" />
+<Button
+    android:layout_width="wrap_content"
+    android:onClick="onClick"
+    android:id="@+id/add"
+    android:text="add"
+    android:layout_height="wrap_content" />
+<Button
+    android:layout_width="wrap_content"
+    android:onClick="onClick"
+    android:id="@+id/delete"
+    android:text="delete"
+    android:layout_height="wrap_content" />
+<Button
+    android:layout_width="wrap_content"
+    android:onClick="onClick"
+    android:id="@+id/update"
+    android:text="update"
+    android:layout_height="wrap_content" />
+<Button
+    android:layout_width="wrap_content"
+    android:onClick="onClick"
+    android:id="@+id/query"
+    android:text="query"
+    android:layout_height="wrap_content" />
+<Button
+    android:layout_width="wrap_content"
+    android:onClick="onClick"
+    android:id="@+id/addnew"
+    android:text="addnew"
+    android:layout_height="wrap_content" />
+<Button
+    android:layout_width="wrap_content"
+    android:onClick="onClick"
+    android:id="@+id/deletenew"
+    android:text="deletenew"
+    android:layout_height="wrap_content" />
+<Button
+    android:layout_width="wrap_content"
+    android:onClick="onClick"
+    android:id="@+id/updatenew"
+    android:text="updatenew"
+    android:layout_height="wrap_content" />
+<Button
+    android:layout_width="wrap_content"
+    android:onClick="onClick"
+    android:id="@+id/querynew"
+    android:text="querynew"
+    android:layout_height="wrap_content" />
+</LinearLayout>

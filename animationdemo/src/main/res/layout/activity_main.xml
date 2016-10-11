@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.qianfeng.animationdemo.MainActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:onClick="onClick"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginTop="150dp"
+        android:id="@+id/iv"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_below="@id/iv"
+        android:id="@+id/xml"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:text="scale"
+            android:onClick="onClick"
+            android:id="@+id/scale"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:text="trans"
+            android:onClick="onClick"
+            android:id="@+id/trans"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:text="alpha"
+            android:onClick="onClick"
+            android:id="@+id/alpha"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:text="rotate"
+            android:onClick="onClick"
+            android:id="@+id/rotate"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:text="set"
+            android:onClick="onClick"
+            android:id="@+id/set"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_below="@id/xml"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:text="scalec"
+            android:onClick="onClick"
+            android:id="@+id/scalec"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:text="transc"
+            android:onClick="onClick"
+            android:id="@+id/transc"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:text="alphac"
+            android:onClick="onClick"
+            android:id="@+id/alphac"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:text="rotatec"
+            android:onClick="onClick"
+            android:id="@+id/rotatec"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:text="setc"
+            android:onClick="onClick"
+            android:id="@+id/setc"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/startactivity"
+        android:onClick="onClick"
+        android:text="跳转activity"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

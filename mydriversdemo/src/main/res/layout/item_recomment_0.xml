@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:id="@+id/hor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="6.5"
+            android:id="@+id/title"
+            android:maxLines="3"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:layout_width="0px"
+            android:id="@+id/pic"
+            android:layout_height="wrap_content"
+            android:layout_weight="3" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/hor"
+        android:textColor="#b0aeae" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/hor"
+        android:textColor="#b0aeae" />
+
+    <TextView
+        android:id="@+id/commentcount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hor"
+        android:layout_marginRight="15dp"
+        android:layout_toLeftOf="@id/time"
+        android:drawableRight="@mipmap/bottom_comment_normal" />
+</RelativeLayout>

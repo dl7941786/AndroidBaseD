@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--当设置 level 出现范围重叠的时候,按照在 xml中的顺序来加载-->
+    <item
+        android:drawable="@mipmap/liuyifei"
+        android:maxLevel="5"
+        android:minLevel="2" />
+    <item
+        android:drawable="@mipmap/libingbing"
+        android:maxLevel="4"
+        android:minLevel="1" />
+
+    <item
+        android:drawable="@mipmap/ic_launcher"
+        android:maxLevel="10"
+        android:minLevel="9" />
+</level-list>

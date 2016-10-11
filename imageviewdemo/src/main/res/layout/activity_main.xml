@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.qianfeng.imageviewdemo.MainActivity">
+
+    <!--<ImageView-->
+    <!--android:id="@+id/iv1"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:scaleType="fitXY"-->
+    <!--android:src="@mipmap/liuyifei" />-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/iv2"-->
+    <!--android:layout_width="700dp"-->
+    <!--android:background="#f00"-->
+    <!--android:src="@mipmap/libingbing"-->
+    <!--android:layout_height="700dp" />-->
+    <!--<ImageView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:background="@mipmap/libingbing"-->
+    <!--android:layout_height="match_parent" />-->
+    <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:adjustViewBounds="true"-->
+        <!--android:maxHeight="400dp"-->
+        <!--android:maxWidth="300dp"-->
+        <!--android:src="@mipmap/libingbing"/>-->
+    <ImageView
+        android:layout_width="100dp"
+        android:id="@+id/iv3"
+        android:src="@mipmap/libingbing"
+        android:layout_height="100dp" />
+    <ImageView
+        android:layout_width="100dp"
+        android:id="@+id/iv4"
+        android:layout_toRightOf="@id/iv3"
+        android:layout_height="100dp" />
+    <ImageView
+        android:layout_width="100dp"
+        android:id="@+id/iv5"
+        android:layout_below="@id/iv3"
+        android:layout_height="100dp" />
+    <ImageView
+        android:layout_width="100dp"
+        android:id="@+id/iv6"
+        android:layout_toRightOf="@id/iv5"
+        android:layout_below="@id/iv3"
+        android:layout_height="100dp" />
+    <ImageView
+        android:layout_width="100dp"
+        android:id="@+id/iv7"
+        android:layout_below="@id/iv6"
+        android:layout_height="100dp" />
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">SpinnerDemo</string>
+    <string-array name="spinnerarray">
+        <!--所有的字符串内容  不需要加双引号-->
+        <item>aaaa</item>
+        <item>bbbb</item>
+        <item>ccccc</item>
+        <item>sfdfsd</item>
+        <item>bbgdbb</item>
+        <item>sdfer</item>
+        <item>ertegdsf</item>
+        <item>sdh5wtew</item>
+        <item>7546uhghfg</item>
+    </string-array>
+    <string-array name="aaaa">
+        <!--所有的字符串内容  不需要加双引号-->
+        <item>aaaa</item>
+        <item>bbbb</item>
+        <item>ccccc</item>
+        <item>sfdfsd</item>
+        <item>bbgdbb</item>
+        <item>sdfer</item>
+        <item>ertegdsf</item>
+        <item>sdh5wtew</item>
+        <item>7546uhghfg</item>
+    </string-array>
+</resources>

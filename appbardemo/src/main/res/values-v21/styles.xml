@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.Base" >
+        <!--底部操作栏返回 home颜色必须是21版本才会有的功能-->
+        <item name="android:navigationBarColor">@color/windowbackground</item>
+    </style>
+
+</resources>

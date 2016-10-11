@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/iv1"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="15sp"
+        android:text="这是自定义文本1"
+        android:id="@+id/tv1"
+        android:layout_toRightOf="@id/iv1"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:src="@mipmap/ab_share"
+        android:background="#f00"
+        android:id="@+id/iv2"
+        android:layout_alignLeft="@id/tv1"
+        android:layout_below="@id/tv1"
+        android:layout_height="wrap_content" />
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_alignLeft="@id/tv1"
+        android:layout_below="@id/iv2"
+        android:id="@+id/progress"
+        style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scale xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromXScale="1.0"
+    android:toXScale="0.5"
+    android:fromYScale="1.0"
+    android:toYScale="2.0"
+    android:duration="2000"
+    android:pivotX="10%"
+    android:pivotY="10%"
+    >
+    <!--  android:repeatMode="reverse"
+         android:repeatCount="5"-->
+<!--缩放动画  repeatCount重复字数,指的完成首次后再重复几次   repeatMode="reverse" reverse指的是按照动画的逆序再回来-->
+</scale>

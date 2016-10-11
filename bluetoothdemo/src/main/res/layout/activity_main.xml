@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.qianfeng.bluetoothdemo.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scan"
+        android:onClick="onClick"
+        android:text="扫描" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/open"
+        android:layout_toRightOf="@id/scan"
+        android:onClick="onClick"
+        android:text="开灯" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/close"
+        android:layout_toRightOf="@id/open"
+        android:onClick="onClick"
+        android:text="关灯" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/diandong"
+        android:layout_toRightOf="@id/close"
+        android:onClick="onClick"
+        android:text="点动" />
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/husuo"
+        android:text="互锁"
+        android:onClick="onClick"
+        android:layout_below="@id/scan"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/zisuo"
+        android:text="自锁"
+        android:onClick="onClick"
+        android:layout_toRightOf="@id/husuo"
+        android:layout_below="@id/scan"
+        android:layout_height="wrap_content" />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_below="@id/husuo"
+        android:id="@+id/listview"
+        android:layout_height="match_parent"/>
+</RelativeLayout>

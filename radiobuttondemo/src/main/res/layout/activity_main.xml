@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.qianfeng.radiobuttondemo.MainActivity">
+    <!--<RadioButton-->
+    <!--android:textSize="30sp"-->
+    <!--android:text="男"-->
+    <!--android:id="@+id/male"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--<RadioButton-->
+    <!--android:textSize="30sp"-->
+    <!--android:text="女"-->
+    <!--android:id="@+id/fmale"-->
+    <!--android:layout_toRightOf="@id/male"-->
+    <!--android:layout_marginLeft="10dp"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/malen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="男"
+            android:checked="true"
+            android:textSize="30sp" />
+
+        <RadioButton
+            android:id="@+id/fmalen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="女"
+            android:textSize="30sp" />
+
+
+    </RadioGroup>
+</RelativeLayout>

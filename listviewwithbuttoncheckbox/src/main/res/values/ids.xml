@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="imageclick" type="id"/>
+    <item name="imageclick1" type="id"/>
+    <item name="imageclick2" type="id"/>
+    <item name="checkboxcheck" type="id" />
+</resources>

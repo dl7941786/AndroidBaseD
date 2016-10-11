@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.qianfeng.handlerdemo.Main2Activity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/send1"
+        android:text="发送1"
+        android:onClick="onClick"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/send2"
+        android:text="发送2"
+        android:onClick="onClick"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/send3"
+        android:text="发送3"
+        android:onClick="onClick"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/send4"
+        android:text="发送4"
+        android:onClick="onClick"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/send5"
+        android:text="发送5"
+        android:onClick="onClick"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/send6"
+        android:text="发送6"
+        android:onClick="onClick"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/send7"
+        android:text="发送7"
+        android:onClick="onClick"
+        android:layout_height="wrap_content" />
+    <SeekBar
+        android:layout_width="match_parent"
+        android:id="@+id/seekbar"
+        android:layout_height="wrap_content" />
+</LinearLayout>

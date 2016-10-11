@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="C:\Android\android-studio\gradle\gradle-2.14.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/activitydemo" />
+            <option value="$PROJECT_DIR$/activitypassdatademo" />
+            <option value="$PROJECT_DIR$/aidlclient" />
+            <option value="$PROJECT_DIR$/aidldemo" />
+            <option value="$PROJECT_DIR$/animationdemo" />
+            <option value="$PROJECT_DIR$/animatordemo" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/appbardemo" />
+            <option value="$PROJECT_DIR$/asynctaskdemo" />
+            <option value="$PROJECT_DIR$/autocompletetextviewdemo" />
+            <option value="$PROJECT_DIR$/bluetoothdemo" />
+            <option value="$PROJECT_DIR$/braodcastreciver" />
+            <option value="$PROJECT_DIR$/broadcastdemo2" />
+            <option value="$PROJECT_DIR$/broadcastdemo3" />
+            <option value="$PROJECT_DIR$/buttondemo" />
+            <option value="$PROJECT_DIR$/callbackdemo" />
+            <option value="$PROJECT_DIR$/checkboxdemo" />
+            <option value="$PROJECT_DIR$/contentproviderdemo" />
+            <option value="$PROJECT_DIR$/customanimation" />
+            <option value="$PROJECT_DIR$/day07homework" />
+            <option value="$PROJECT_DIR$/dialogdemo" />
+            <option value="$PROJECT_DIR$/edittextdemo" />
+            <option value="$PROJECT_DIR$/filestore(wenjiancunchu)demo" />
+            <option value="$PROJECT_DIR$/fragmentdemo" />
+            <option value="$PROJECT_DIR$/fragmentembeddemo" />
+            <option value="$PROJECT_DIR$/gridviewdemo" />
+            <option value="$PROJECT_DIR$/handlerdemo" />
+            <option value="$PROJECT_DIR$/imageviewdemo" />
+            <option value="$PROJECT_DIR$/intentdemo" />
+            <option value="$PROJECT_DIR$/launchmodedemo" />
+            <option value="$PROJECT_DIR$/listviewdemo" />
+            <option value="$PROJECT_DIR$/listviewdemo2" />
+            <option value="$PROJECT_DIR$/listviewdemo3" />
+            <option value="$PROJECT_DIR$/listviewpartrefresh" />
+            <option value="$PROJECT_DIR$/listviewwithbuttoncheckbox" />
+            <option value="$PROJECT_DIR$/listviewwithmutillayout" />
+            <option value="$PROJECT_DIR$/loaderdemo" />
+            <option value="$PROJECT_DIR$/lrucachedemo" />
+            <option value="$PROJECT_DIR$/menudemo" />
+            <option value="$PROJECT_DIR$/messengerclient" />
+            <option value="$PROJECT_DIR$/messengerserver" />
+            <option value="$PROJECT_DIR$/musicplayerdemo" />
+            <option value="$PROJECT_DIR$/mvphelloworld" />
+            <option value="$PROJECT_DIR$/mycontentprovidertest" />
+            <option value="$PROJECT_DIR$/mydriversdemo" />
+            <option value="$PROJECT_DIR$/notificationdemo" />
+            <option value="$PROJECT_DIR$/permissiondemo(quanxian)" />
+            <option value="$PROJECT_DIR$/progressbardemo" />
+            <option value="$PROJECT_DIR$/radiobuttondemo" />
+            <option value="$PROJECT_DIR$/rattingbardemo" />
+            <option value="$PROJECT_DIR$/scrollviewdemo" />
+            <option value="$PROJECT_DIR$/scrollviewwithlistview" />
+            <option value="$PROJECT_DIR$/servicedemo" />
+            <option value="$PROJECT_DIR$/sharedpreferencesdemo" />
+            <option value="$PROJECT_DIR$/spinnerdemo" />
+            <option value="$PROJECT_DIR$/sqlitedemo" />
+            <option value="$PROJECT_DIR$/staractivity3demo" />
+            <option value="$PROJECT_DIR$/startactivity3demo1" />
+            <option value="$PROJECT_DIR$/startactivitydemo2" />
+            <option value="$PROJECT_DIR$/startactivityforrsultdemo" />
+            <option value="$PROJECT_DIR$/toastdemo" />
+            <option value="$PROJECT_DIR$/uidemo" />
+            <option value="$PROJECT_DIR$/viewpagerdemo" />
+            <option value="$PROJECT_DIR$/viewpagerwithfragmentdemo" />
+            <option value="$PROJECT_DIR$/webviewsource" />
+            <option value="$PROJECT_DIR$/xianghaapp" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/single"
+        android:title="单曲循环"
+        android:icon="@mipmap/ic_launcher" />
+    <item
+        android:id="@+id/listplayback"
+        android:title="列表循环"
+        android:icon="@mipmap/ic_launcher" />
+    <item
+        android:id="@+id/order"
+        android:title="顺序播放"
+        android:icon="@mipmap/ic_launcher" />
+    <item
+        android:id="@+id/random"
+        android:title="随机播放"
+        android:icon="@mipmap/ic_launcher" />
+</menu>

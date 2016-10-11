@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <!--圆是一个宽高一样的特殊的椭圆-->
+    <size
+        android:width="100px"
+        android:height="100px" />
+    <solid android:color="#f00" />
+    <stroke
+        android:color="#0f0"
+        android:width="1px"
+        android:dashGap="0px"
+        android:dashWidth="0px" />
+    <gradient
+        android:startColor="#c26767"
+        android:centerColor="#ad35da"
+        android:type="sweep"
+        android:useLevel="false"
+        android:endColor="#c5d3e6" />
+</shape>
